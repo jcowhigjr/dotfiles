@@ -30,3 +30,6 @@ SAVEHIST=1000000
 # show time a command took if over 4 sec
 export REPORTTIME=4
 export TIMEFMT="%*Es total, %U user, %S system, %P cpu"
+
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+source /opt/boxen/env.sh
